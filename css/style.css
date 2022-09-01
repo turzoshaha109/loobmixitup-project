@@ -1,0 +1,119 @@
+body{
+    background: #333;
+    color: #fff;
+}
+.fa-solid{
+    font-size: 45px;
+}
+.navbar{
+    border-bottom: solid 3px #076cad ;
+    background: #2c2e2e;
+    opacity: 0.7;
+}
+#home-section{
+   background: url(../img/people-mother-family-father.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   min-height: 700px;
+   background-attachment: fixed
+
+}
+
+#home-section .home-inner{
+    padding-top:150px ;
+    padding-bottom: 50px;
+}
+
+#home-section .dark-overlay{
+    min-height: 700px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#home-section .fa-solid{
+    font-size: 30px;
+    font-weight: bold;
+    color:#0b70ab;
+    background-color: #fff;
+    padding: 3px 5px;
+    border-radius: 5px;
+   
+}
+
+#create-main-section .fa-solid {
+    
+    font-size: 30px;
+    font-weight: bold;
+    color:#0b70ab;
+    background-color: #fff;
+    padding: 3px 5px;
+    border-radius: 5px;
+   
+ }
+
+ .con{
+    width: 80%;
+    margin: 50px auto;
+    background-color: rgb(78, 8, 63);
+    border-radius: 10px;
+}
+.controls{
+    margin: 20px auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    margin-bottom: 20px;
+    height: 10px;
+    width: 85%;
+    border: 1px solid rgb(255, 255, 255);
+    margin: auto;
+    margin-bottom: 25px;
+    background-color:  rgb(78, 8, 63);
+    border-radius: 20px;
+    
+}
+
+hr:hover{
+    background-color: rgb(255, 254, 253);
+}
+.control{
+    padding: 10px 20px;
+    color: rgb(242, 242, 247);
+    background-color:  rgb(78, 8, 63);
+    margin: 20px 5px 5px;
+    border-radius: 80px;
+    border: 1px soid   rgb(78, 8, 63);
+    font-size: 20px;
+    font-weight: 600;
+}
+ .control:hover{
+   background-color: rgb(247, 249, 253);
+   color:  rgb(78, 8, 63);
+   transition: 2s;
+   font-size: 25px;
+   border: #fa6502 solid 5px;
+   
+}
+
+#image{
+    margin: 0 auto;
+    width: 85%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.mix{
+    height: 250px;
+    width: 150px;
+    margin: 10px;
+    border-left: 5px solid #fa6502;
+    border-bottom: 5px solid rgb(253, 27, 11);
+    border-right: 5px solid rgb(127, 253, 10);
+    border-top: 5px solid rgb(252, 10, 240);
+    border-radius: 7px;
+    margin-bottom: 40px;
+}
+
